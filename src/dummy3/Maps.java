@@ -10,8 +10,12 @@ public class Maps {
 	public static void main(String[] args) {
 		
 		Map<String, Integer>map = new HashMap<>();
-		map.put("elbise", 5);
-		map.put("ayakkabi", 3);
+		map.put("Honda", 2021);
+		map.put("Toyota", 2018);
+		map.put("Porche", 2020);
+		map.put("Ferrari", 2017);
+		map.put("Mercedes", 2013);
+		
 		
 		// key list
 		List keyList = new ArrayList(map.keySet());
@@ -19,10 +23,7 @@ public class Maps {
 		List valueList = new ArrayList(map.values());
 		// key-value list
 		List entryList = new ArrayList(map.entrySet());
-		List <String>elements = new ArrayList<>();
-		elements.add("Orhan");
-		elements.add("Ahmet");
-		elements.add("Yaliz");
+		
 		
 		
 		

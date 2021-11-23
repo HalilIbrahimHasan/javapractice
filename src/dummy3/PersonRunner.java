@@ -9,7 +9,7 @@ public class PersonRunner {
 		
 		Person person1 = new Person("Osman", "Yamata", 55);
 		Person person2 = new Person("Ahmet", "Yurt", 4);
-		Person person3 = new Person("Hakan", "Elmas", 23);
+		Person person3 = new Person("Nihal", "Elmas", 23);
 		Person person4 = new Person("Osman", "Yavan", 15);
 		Person person5 = new Person("Selcuk", "Kar", 43);
 		Person person6 = new Person("Nedime", "Ozgur", 24);
