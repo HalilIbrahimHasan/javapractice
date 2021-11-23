@@ -9,7 +9,7 @@ public class SchoolRunner {
 		std.setLastname("Kalin");
 		std.setId(111);
 		std.setLabName("IT Labarotory");;
-		std.setDepartmentName("IT Department");
+		std.setDepartmentName(ITDepartment.departmentName);
 		
 		Instructor ins = new Instructor();
 		
@@ -19,20 +19,20 @@ public class SchoolRunner {
 		
 		std.setInstructor(ins);
 		
-		School school = std;
+		ITDepartment dep = std;
 		
 		
-		School school2 = ins;
+		ITDepartment dep2 = ins;
 		
 		
+		School school = dep;
 		
 		
+//		System.out.println(dep.student());
+//		System.out.println(dep2.instructor());
+		System.out.println(school);
 		
-		System.out.println(school.student());
-		System.out.println(school2.instructor());
-		
-		
-		
+//		System.out.println(school.departmentName());
 	}
 
 }
