@@ -27,6 +27,9 @@ public class PersonRunner {
 		
 		//sort all ages
 		
+		//generate emails for the users using first Initial of first name and last 
+		//name along with @gmail.com
+		
 		
 		
 		List <Person> persons = new ArrayList<>();

@@ -32,16 +32,16 @@ public class Maps {
 		
 		
 //		
-//		for(Entry entry: map.entrySet()) {
-//			  // get key
-//			  Object key = entry.getKey();
-//			  // get value
-//			  Object value = entry.getValue();
-//			  
-//			  System.out.println("key: "+key);
-//			  System.out.println("Value: "+value);
-//
-//			}
+		for(Entry entry: map.entrySet()) {
+			  // get key
+			  String key =(String) entry.getKey();
+			  // get value
+			  Object value = entry.getValue();
+			  
+			  System.out.println("key: "+key);
+			  System.out.println("Value: "+value);
+
+			}
 		
 		
 		
