@@ -21,7 +21,9 @@ public class PersonRunner {
 		//Find the unique names
 		
 		
-		//Find the oldest person
+		//Find the oldest person // create a method to return oldest person
+		
+		//Find person whose last name is Ozgur and return the person
 		
 		//sort all ages
 		
