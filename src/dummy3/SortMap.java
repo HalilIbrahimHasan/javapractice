@@ -18,7 +18,6 @@ public class SortMap {
 
 			@Override
 			public int compare(Object arg0, Object arg1) {
-				// TODO Auto-generated method stub
 				return arg0.toString().compareTo(arg1.toString());
 			}
 		
